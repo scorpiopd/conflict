@@ -3,7 +3,7 @@ Scenario.prototype.tearDown = function tearDown() {
     this.vm &&
     this.vm.$el &&
     this.vm.$el.parentElement &&
-    // as a convience, if debugging just this test, don't remove the test app
+    //  a convience, if debugging just this test, don't remove the test app
     !this.isDebuggingJustThisTest()
   ) {
     this.vm.$el.parentElement.removeChild(this.vm.$el);
