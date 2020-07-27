@@ -8,3 +8,4 @@ Scenario.prototype.tearDown = function tearDown() {
   ) {
     this.vm.$el.parentElement.removeChild(this.vm.$el);
   }
+    this.vm.$el.parentElement.removeChild(this.vm.$el);
